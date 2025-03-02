@@ -7,6 +7,7 @@ cabalProject:
   packages = [
     pkgs.ghcid
     pkgs.nixpkgs-fmt
+    pkgs.aiken
   ];
 
   env = { };

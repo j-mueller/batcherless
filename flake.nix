@@ -26,6 +26,11 @@
       inputs.hackage.follows = "hackage";
     };
 
+    aiken = {
+      url = "github:aiken-lang/aiken/v1.1.13";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
   };
 
   outputs = inputs: inputs.iogx.lib.mkFlake {
