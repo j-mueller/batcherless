@@ -2,7 +2,7 @@
 
 let
   sha256map = {
-    "https://github.com/j-mueller/sc-tools"."a3662e093f40082dd6fa525bb0640a10caa1bd70" = "sha256-4GfNKmbSf1fbBEGmQFFZoSahVssBVFfCqU3tjfR1uYs=";
+    "https://github.com/j-mueller/sc-tools"."3b760d6ddb1ff7c835687f599260e0a45c54dbe3" = "sha256-erdlKWDN6/q0MSn7KnksiRP7J9K1KUIMIsSpfugu9PY=";
   };
 
   modules = [{ }];
