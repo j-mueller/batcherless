@@ -19,7 +19,7 @@ cabalProject:
     #       (`cp .pre-commit-config.yaml .pre-commit-config.yaml.nonix`).
     #       This step is necessary because `.pre-commit-config.yaml` is ignored by git.
     cabal-fmt.enable = true;
-    stylish-haskell.enable = true;
+    fourmolu.enable = true;
     nixpkgs-fmt.enable = false;
   };
 }
